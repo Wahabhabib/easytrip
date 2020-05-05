@@ -1,0 +1,86 @@
+header.masthead{
+    text-align:center;
+    color: white;
+    background-image: url('images/bg-2.jpg');
+    background-repeat: no-repeat;
+    background-attachment: scroll;
+    background-position: center center;
+    background-size: cover;   
+    height:60vh;
+}
+.intro-text .text{
+    position: relative;
+    top: 100px;
+}
+.color{
+    color: black !important;
+    font-weight: 500;
+}
+
+#mainNav {
+    padding-top: 15px;
+    padding-bottom: 25px;
+    -webkit-transition: padding-top 0.3s, padding-bottom 0.3s;
+    -moz-transition: padding-top 0.3s, padding-bottom 0.3s;
+    transition: padding-top 0.3s, padding-bottom 0.3s;
+    border: none;
+    background-color: transparent;
+  }
+  #mainNav .navbar-brand {
+    font-size: 1.75em;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+  }
+  #mainNav .navbar-nav .nav-item .nav-link {
+    padding: 1.1em 1em !important;
+  }
+  #mainNav.navbar-shrink {
+    padding-top: 0;
+    padding-bottom: 0;
+    background-color: #f1f1f1;
+  }
+  #mainNav.navbar-shrink .navbar-brand {
+    font-size: 1.25em;
+    padding: 12px 0;
+  }
+.contain{
+    position: relative;
+    height: 100px;
+    top: -50px;
+    -webkit-box-shadow: 2px 10px 22px -6px rgba(0,0,0,0.5);
+    -moz-box-shadow: 2px 10px 22px -6px rgba(0,0,0,0.5);
+    box-shadow: 2px 10px 22px -6px rgba(0,0,0,0.5);
+}
+.booking{
+    width: 100%;
+}
+form .form-row .head{
+    font-weight: 500;
+}
+.card{
+    /* width: 18rem; */
+    -webkit-box-shadow: 2px 10px 22px -6px rgba(0,0,0,0.5);
+    -moz-box-shadow: 2px 10px 22px -6px rgba(0,0,0,0.5);
+    box-shadow: 2px 10px 22px -6px rgba(0,0,0,0.5);
+}
+@media only screen and (max-width:767px){
+    header.masthead{
+        height: 50vh;
+    }
+    .contain{
+    position: relative;
+    height: auto;
+    top: 0px;
+    box-shadow: none;
+ }
+ .card{
+     width: auto;
+ }
+ .display-4{
+     font-size: 29px;
+ }
+ .intro-text .text{
+     top: 130px;
+ }
+}

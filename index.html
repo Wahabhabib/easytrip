@@ -1,0 +1,176 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Easy Trip</title>
+    <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+      integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <script
+      src="https://unpkg.com/gijgo@1.9.13/js/gijgo.min.js"
+      type="text/javascript"
+    ></script>
+    <link
+      href="https://unpkg.com/gijgo@1.9.13/css/gijgo.min.css"
+      rel="stylesheet"
+      type="text/css"
+    />
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
+      <div class="container">
+        <a class="navbar-brand js-scroll-trigger color" href="#top"
+          >easytravel</a
+        >
+        <button
+          class="navbar-toggler navbar-toggler-right color"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarResponsive"
+          aria-controls="navbarResponsive"
+          aria-expanded="false"
+          aria-label="Toggle Navigation"
+        >
+          Menu <i class="fa fa-bars"></i>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarResponsive">
+          <ul class="navbar-nav text-uppercase ml-auto">
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger color" href="#link1">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger color" href="#link2"
+                >Places</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger color" href="#link3"
+                >Reviews</a
+              >
+            </li>
+            <li class="nav-item">
+              <a class="nav-link js-scroll-trigger color" href="#link4"
+                >About</a
+              >
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+    <header class="masthead">
+      <div class="container">
+        <div class="intro-text">
+            <div class="text ">
+                <span class="display-4 font-weight-bold color">Make your trip easier</span> <br>
+                <span class="font-weight-bold color d-none d-md-block">We are professionals on making your vacation reservation easier</span>
+            </div>
+        </div>
+      </div>
+    </header>
+    <div class="container mb-5">
+      <div class="row">
+        <div class="col">
+          <div class="contain bg-white pt-2 mb-4 mb-md-0">
+            <form class="">
+              <div class="form-row justify-content-md-around">
+                <div class="col-12 col-md-3 col-lg-2 offset-lg-0">
+                  <p class="head">Choose a date</p>
+                  <input id="datepicker" />
+                  <script>
+                    $("#datepicker").datepicker({
+                      uiLibrary: "bootstrap4"
+                    });
+                  </script>
+                </div>
+                <div class="col-12 mt-2 mt-md-0 col-md-3 col-lg-2 offset-lg-0">
+                  <p class="head">Cartegory</p>
+                  <select class="custom-select">
+                    <option selected>Select cartegory</option>
+                    <option value="1">Air</option>
+                    <option value="2">Land</option>
+                    <option value="3">Sea</option>
+                  </select>
+                </div>
+                <div class="col-12 mt-2 mt-md-0 col-md-3 col-lg-2 offset-lg-0">
+                  <p class="head">Find a Location</p>
+                  <input
+                    type="text"
+                    class="form-control"
+                    placeholder="Location"
+                  />
+                </div>
+                <div
+                  class="col-12 mt-3 mt-md-0 col-md-2 col-lg-2 offset-lg-0 align-self-end"
+                >
+                  <button type="button" class="col-12 btn btn-danger">
+                    Lorem
+                  </button>
+                </div>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+      <div class="row d-flex justify-content-around">
+        <div class="col-12 col-md-4 ">
+          <div class="card">
+            <img src="images/bg-5.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Lorem ipsum dolor</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 mt-4 mt-md-0 col-md-4 ">
+          <div class="card">
+            <img src="images/bg-6.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Lorem ipsum dolor</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+        <div class="col-12 mt-4 mt-md-0 col-md-4 ">
+          <div class="card">
+            <img src="images/bg-1.jpg" class="card-img-top" alt="..." />
+            <div class="card-body">
+              <h5 class="card-title">Lorem ipsum dolor</h5>
+              <p class="card-text">
+                Some quick example text to build on the card title and make up
+                the bulk of the card's content.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <script
+      src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+      integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+      integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+      crossorigin="anonymous"
+    ></script>
+    <script
+      src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+      integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+      crossorigin="anonymous"
+    ></script>
+    <script src="js/navbar-shrinker.js"></script>
+  </body>
+</html>
