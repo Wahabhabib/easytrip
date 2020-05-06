@@ -21,15 +21,16 @@
       rel="stylesheet"
       type="text/css"
     />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;400;500;700&display=swap" rel="stylesheet">
   </head>
   <body>
     <nav class="navbar navbar-expand-lg navbar-dark fixed-top" id="mainNav">
       <div class="container">
-        <a class="navbar-brand js-scroll-trigger color" href="#top"
+        <a class="navbar-brand js-scroll-trigger font-weight-bold" href="#top"
           >easytravel</a
         >
         <button
-          class="navbar-toggler navbar-toggler-right color"
+          class="navbar-toggler navbar-toggler-right text-white"
           type="button"
           data-toggle="collapse"
           data-target="#navbarResponsive"
@@ -39,23 +40,23 @@
         >
           Menu <i class="fa fa-bars"></i>
         </button>
-        <div class="collapse navbar-collapse" id="navbarResponsive">
+        <div class="collapse navbar-collapse bg-color" id="navbarResponsive">
           <ul class="navbar-nav text-uppercase ml-auto">
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger color" href="#link1">Home</a>
+              <a class="nav-link js-scroll-trigger text-white" href="#link1">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger color" href="#link2"
+              <a class="nav-link js-scroll-trigger text-white" href="#link2"
                 >Places</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger color" href="#link3"
+              <a class="nav-link js-scroll-trigger text-white " href="#link3"
                 >Reviews</a
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link js-scroll-trigger color" href="#link4"
+              <a class="nav-link js-scroll-trigger text-white " href="#link4"
                 >About</a
               >
             </li>
@@ -67,8 +68,8 @@
       <div class="container">
         <div class="intro-text">
             <div class="text ">
-                <span class="display-4 font-weight-bold color">Make your trip easier</span> <br>
-                <span class="font-weight-bold color d-none d-md-block">We are professionals on making your vacation reservation easier</span>
+                <span class="display-4 font-weight-bold">Make your trip easier</span> <br>
+                <span class="font-weight-bold d-none d-md-block">We are professionals on making your vacation reservation easier</span>
             </div>
         </div>
       </div>
@@ -99,17 +100,19 @@
                 </div>
                 <div class="col-12 mt-2 mt-md-0 col-md-3 col-lg-2 offset-lg-0">
                   <p class="head">Find a Location</p>
-                  <input
-                    type="text"
-                    class="form-control"
-                    placeholder="Location"
-                  />
+                  <select class="custom-select">
+                    <option selected>Nigeria</option>
+                    <option value="1">United States</option>
+                    <option value="2">United Kingdom</option>
+                    <option value="3">UAE</option>
+                    <option value="3">France</option>
+                  </select>
                 </div>
                 <div
                   class="col-12 mt-3 mt-md-0 col-md-2 col-lg-2 offset-lg-0 align-self-end"
                 >
                   <button type="button" class="col-12 btn btn-danger">
-                    Lorem
+                    Submit
                   </button>
                 </div>
               </div>
@@ -117,6 +120,7 @@
           </div>
         </div>
       </div>
+      <h6 class="mb-5">Recomended</h6>
       <div class="row d-flex justify-content-around">
         <div class="col-12 col-md-4 ">
           <div class="card">
