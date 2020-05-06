@@ -1,16 +1,19 @@
+body{
+    font-family: 'Roboto', sans-serif;
+}
 header.masthead{
     text-align:center;
     color: white;
-    background-image: url('images/bg-2.jpg');
+    background-image: url('images/bg-11.jpg');
     background-repeat: no-repeat;
     background-attachment: scroll;
     background-position: center center;
     background-size: cover;   
-    height:60vh;
+    height:400px;
 }
 .intro-text .text{
     position: relative;
-    top: 100px;
+    top: 160px;
 }
 .color{
     color: black !important;
@@ -43,6 +46,10 @@ header.masthead{
   #mainNav.navbar-shrink .navbar-brand {
     font-size: 1.25em;
     padding: 12px 0;
+    color: black;
+  }
+  #mainNav.navbar-shrink .text-white{
+    color: black !important;
   }
 .contain{
     position: relative;
@@ -63,6 +70,14 @@ form .form-row .head{
     -webkit-box-shadow: 2px 10px 22px -6px rgba(0,0,0,0.5);
     -moz-box-shadow: 2px 10px 22px -6px rgba(0,0,0,0.5);
     box-shadow: 2px 10px 22px -6px rgba(0,0,0,0.5);
+}
+@media only screen and (max-width:1023px){
+    .bg-color{
+        background-color: rgb(44, 44, 44);
+    }
+    #mainNav .navbar-nav .nav-item .nav-link {
+        padding: 0.6em 1em !important;
+    }
 }
 @media only screen and (max-width:767px){
     header.masthead{
